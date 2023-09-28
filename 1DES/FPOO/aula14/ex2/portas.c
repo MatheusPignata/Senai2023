@@ -1,15 +1,14 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
     int N;
 
     while (1) {
-        // Leitura do número de portas e descendentes
+       
         scanf("%d", &N);
 
         if (N == 0) {
-            break; // Encerra o programa quando N for 0
+            break;
         }
 
         int i;
